@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;700&display=swap');
+
+:root {
+    /*colors*/
+    --clr-darkBlue: #141435;
+    --clr-yellow: #ffea00;
+    --clr-green: #008000;
+    --clr-red: #ff0000;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141435;
+    font-size: 12px;
+    font-family: 'Baloo 2', cursive;
+}
+
+/*HEADER*/
+header {
+    background-color: white;
+}
+
+h1 {
+    height: 10vh;
+    line-height: 10vh;
+    text-align: center;
+    color: #141435;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+/*MAIN*/
+main {
+    color: #fff;
+}
+
+/*SCORE*/
+.score-container {
+    width: 60%;
+    max-width: 600px;
+    height: 10vh;
+    min-height: 60px;
+    margin: 2rem auto;
+    border: 0.25rem solid #fff;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge {
+    background-color: #ffea00;
+    font-weight: bold;
+    text-align: center;
+    color: #141435;
+}
+
+.badge-win {
+    background-color: #008000;
+}
+
+.badge-lose {
+    background-color: #ff0000;
+}
+
+#badge-user {
+    width: 3rem;
+    position: absolute;
+    top: 3.5vh;
+    left: -1.5rem;
+}
+
+#badge-computer {
+    width: 5rem;
+    position: absolute;
+    top: 3.5vh;
+    right: -2.5rem;
+}
+
+.score {
+    height: 100%;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/*CHOICE*/
+.choice-container {
+    margin: auto;
+    max-width: 600px;
+    min-height: 260px;
+}
+
+.choice-literal {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.choice {
+    height: 20vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.choice-img-cont {
+    background-color: #ffea00;
+    overflow: hidden;
+    flex-basis: 20%;
+    border: 4px solid #fff;
+    border-radius: 50%;
+}
+
+.motto {
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.motto-win {
+    color: green;
+}
+
+.motto-lose {
+    color: red;
+}
+
+.motto-draw {
+    color: #ffea00;
+}

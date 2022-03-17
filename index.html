@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <!--STYLE-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+    <main>
+        <section class="score-container">
+            <div class="badge" id="badge-user">User</div>
+            <div class="badge" id="badge-computer">Computer</div>
+            <div class="score">
+                <span id="score-user">0</span>:<span id="score-computer">0</span>
+            </div>
+        </section>
+        <section class="choice-container">
+            <p class="choice-literal">Your Rock beats Computer's Scissors</p>
+            <div class="choice">
+                <div class="choice-img-cont">
+                    <img data-game="r" src="images/rock.png" alt="ROCK">
+                </div>
+                <div class="choice-img-cont">
+                    <img data-game="p" src="images/paper.png" alt="PAPER">
+                </div>
+                <div class="choice-img-cont">
+                    <img data-game="s" src="images/scissors.png" alt="SCISSORS">
+                </div>
+            </div>
+            <p class="motto">Make your move</p>
+        </section>
+    </main>
+
+    <!--SCRIPT-->
+    <script src="js/script.js"></script>
+</body>
+</html>
